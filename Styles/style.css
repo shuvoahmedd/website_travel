@@ -2,18 +2,32 @@ body{
     background-color: white;
 }
 
-div1 > divname1 > h3{
-    display: inline;
-    color: brown;
+.logo-text{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
 }
-div1 > divname2 > h3{
-    display: inline;
-    color: brown;
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
 }
-div1{
-    background-color: rgb(107, 107, 112);
-    background-size: 200px;
+.name1{
+    color: #131318;
+    font-family: arial;
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: bold;
 }
+
+.name2{
+    color: #FF5400;
+    font-size: 24px;
+    font-family: arial;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
 nav > ul > li{
     display: inline;
     margin-right: 15px;
